@@ -1,0 +1,26 @@
+
+/* mobile */
+
+@media screen and (max-width: 800px) {
+  $gap: 20px;
+
+  .cv-container, body > footer {
+    margin: 0;
+    width: auto;
+  }
+
+  .cv-container {
+    border: 0;
+    padding: $gap;
+  }
+  body > footer {
+    margin: $gap $gap 0 $gap;
+    padding: $gap;
+
+    @media screen and (max-width: 500px) {
+      padding: 10px;
+      flex-wrap: wrap;
+      gap: 5px;
+    }
+  }
+}

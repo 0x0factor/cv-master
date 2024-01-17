@@ -1,0 +1,28 @@
+{
+  "name": "cv",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview",
+    "build-pdf": "node generate_pdf.mjs",
+    "all": "npm run build-pdf && npm run build"
+  },
+  "dependencies": {
+    "jsoncv": "file:jsoncv"
+  },
+  "devDependencies": {
+    "@iconify-json/mdi": "^1.1.33",
+    "@iconify/utils": "^2.0.0",
+    "ajv-cli": "^5.0.0",
+    "puppeteer": "^19.6.3",
+    "rollup-plugin-node-polyfills": "^0.2.1",
+    "sass": "^1.54.8",
+    "vite": "^4.1.1",
+    "vite-plugin-ejs": "^1.6.4",
+    "vite-plugin-handlebars": "^1.6.0",
+    "vite-plugin-singlefile": "^0.13.2"
+  }
+}

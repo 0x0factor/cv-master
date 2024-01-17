@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#fff" />
+  <meta name="description" content="<%= meta.description %>">
+  <meta property="og:title" content="<%= meta.title %>">
+  <meta property="og:description" content="<%= meta.description %>">
+  <meta property="og:url" content="<%= meta.url %>">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" property="twitter:card" content="summary">
+  <meta name="twitter:creator" property="twitter:creator" content="@novoreorx">
+  <meta name="twitter:title" property="twitter:title" content="<%= meta.title %>">
+  <meta name="twitter:description" property="twitter:description" content="<%= meta.description %>">
+
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <title><%= fn.getCVTitle(cv) %></title>
+  <style>
+    /* Note: if you add additional styles to this class, you should remove them in `@media print` to ensure .cv-container remains styleless when printing */
+    .cv-container {
+      border: 1px solid #ccc;
+      margin: 10mm auto;
+    }
+  </style>
+  <link rel="stylesheet" href="/jsoncv/src/scss/cv-base.css">
+  <link rel="stylesheet" href="/jsoncv/src/themes/<%= theme %>/index.scss">
+  <link rel="stylesheet" href="/index.scss">
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+    }
+    body > footer {
+      font-size: 14px;
+      width: calc(210mm - 20mm);
+      padding: 6mm 10mm;
+      margin: 0 auto;
+      border: 1px solid #ccc;
+      border-bottom: 0;
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    @media print {
+      body > footer {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="cv-container">
+    <%- include('jsoncv/src/themes/' + theme + '/index', locals) %>
+  </div>
+
+  <footer>
+    <a href="<%= pdfURL %>" download>Download PDF</a>
+    <span>•</span>
+    <a href="https://github.com/pseudoyu/cv" target="_blank">Source code</a>
+    <span>•</span>
+    <a href="https://www.pseudoyu.com" target="_blank">pseudoyu.com</a>
+  </footer>
+
+  <% if (!isProduction) { %>
+  <!-- import theme ejs to enable HMR -->
+  <script type="module">
+    import './jsoncv/src/themes/<%= theme %>/index.ejs'
+  </script>
+  <% } %>
+</body>
+</html>

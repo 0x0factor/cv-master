@@ -1,0 +1,295 @@
+{
+  "$schema": "https://raw.githubusercontent.com/reorx/jsoncv/master/schema/jsoncv.schema.json",
+  "basics": {
+    "name": "Yu ZHANG",
+    "label": "Blockchain Developer",
+    "image": "",
+    "email": "pseudoyu@connect.hku.hk",
+    "phone": "(86) 15382305580",
+    "summary": "GitHub: [github.com/pseudoyu](https://github.com/pseudoyu)\n\nBuilding wonderful web3 products with a knack for various technical stacks about blockchain, from designing and building ÐApp to solving real-life problems with smart contracts.",
+    "location": {
+      "city": "Beijing",
+      "countryCode": "CN",
+      "region": "",
+      "postalCode": "Fengtai, 10, 100000"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "pseudoyu",
+        "url": "https://github.com/pseudoyu"
+      },
+      {
+        "network": "Twitter",
+        "username": "pseudo_yu",
+        "url": "https://twitter.com/pseudo_yu"
+      }
+    ],
+    "url": "https://www.pseudoyu.com"
+  },
+  "work": [
+    {
+      "name": "Ziggurat",
+      "location": "Beijing, CN",
+      "description": "A leading provider of blockchain technology products and solutions.",
+      "position": "Blockchain Developer & Technical Leader(Interchain)",
+      "url": "https://zhigui.com",
+      "startDate": "2021-07-05",
+      "endDate": "2023-02-11",
+      "summary": "",
+      "highlights": [
+        "**Team Management:** Managed a team of 6 software developers with roles in front-end, back-end, testing, and operation. Led team and coordinated schedules/tasks, hosted daily/periodic meetings, and set team rules/regulations. Completed the R&D and maintenance of three key company projects.",
+        "**Software Development:** Developed/maintained blockchain interchain system based on Cosmos SDK. Developed interchain ibc module, on-chain data monitoring and processing, etc. Optimized blockchain performance of the whole business procedure (from 2s to 800ms). Led team in completing the integration and customization of external consortium blockchain, supporting multiple scenarios of major consortium blockchain.",
+        "**Development Process Management:** Developed and maintain GitFlow-based Git workflow and DevOps environment for large business partners such as China Unicom, China Merchants Bank, and China Telecom for project management, version control, and CI/CD."
+      ]
+    },
+    {
+      "name": "Upstairs Research",
+      "location": "Singapore",
+      "description": "Asia's leading custodial NFT marketplace.",
+      "position": "Smart Contract Engineer",
+      "url": "https://www.upstairs.io",
+      "startDate": "2022-07-01",
+      "endDate": "2023-02-11",
+      "summary": "",
+      "highlights": [
+        "Developed and maintained solidity contracts for NFT, World Cup related games, gamefi platform, and defi applications (integrated with Uniswap). Explored best practices for contract development, testing, and iteration process using hardhat contract framework.",
+        "Collaborated with developer teams to build project's layer2 blockchain which derivates from Polygon. Built API services interacting with multiple modules and the on-chain contracts."
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "The University of Hong Kong",
+      "url": "https://www.hku.hk",
+      "area": "Electronic Commerce and Internet Computing",
+      "studyType": "Master of Science",
+      "startDate": "2020-09-01",
+      "endDate": "2021-12-01",
+      "score": "3.4/4.3",
+      "courses": [
+        "FITE3011 - Distributed Ledger and Blockchain",
+        "ICOM6012 - Internet Infrastructure Technologies",
+        "COMP7404 Computational Intelligence and Machine Learning",
+        "COMP7103 - Data Mining"
+      ]
+    },
+    {
+      "institution": "Wuhan University of Technology",
+      "url": "https://www.whut.edu.cn",
+      "area": "Linguistics",
+      "studyType": "Bachelor of Arts",
+      "startDate": "2015-09-01",
+      "endDate": "2019-07-01",
+      "score": "3.7/5",
+      "courses": [
+        "Internet Large-scale Data Analysis",
+        "Mathematical Statistics",
+        "Translation Theory and Technology"
+      ]
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Backend Development",
+      "level": "Proficiency",
+      "keywords": [
+        "golang",
+        "gin",
+        "database",
+        "git"
+      ]
+    },
+    {
+      "name": "Frontend Development",
+      "level": "Beginner",
+      "keywords": [
+        "react",
+        "nextjs",
+        "typescript",
+        "tailwindcss"
+      ]
+    },
+    {
+      "name": "Devops",
+      "level": "Proficiency",
+      "keywords": [
+        "kubernetes",
+        "docker",
+        "github actions",
+        "gitlab ci",
+        "shell"
+      ]
+    },
+    {
+      "name": "Technical Writing",
+      "level": "Master",
+      "keywords": [
+        "programming",
+        "productivity",
+        "thinking",
+        "translation"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent",
+      "summary": "Qualification: TEM-8; IELTS. With excellent reading, writing, and comprehension skills and fluent speaking. Demonstrated by the ability to quickly learn new knowledge from English-only resources, write professional technical documents, and collaborate with native English speakers."
+    },
+    {
+      "language": "Chinese",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Japanese",
+      "fluency": "Beginner"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Writing",
+      "keywords": [
+        "blog",
+        "technical articles",
+        "critical thinking"
+      ]
+    },
+    {
+      "name": "Photography",
+      "keywords": [
+        "sony",
+        "photoshop"
+      ]
+    },
+    {
+      "name": "Video Editing",
+      "keywords": [
+        "final cut pro",
+        "adobe premiere pro"
+      ]
+    }
+  ],
+  "references": [],
+  "projects": [
+    {
+      "name": "Interchain System",
+      "description": "Relay Chain/Gateway Interchain Solution",
+      "highlights": [
+        "Refactored project's self-developed relay chain based on Cosmos SDK provided by Tendermint. Developed the ibc module for interchain, combined with Cosmos native modules and self-developed JVM smart contract engine module, multi-node management module, etc. to implement interchain ability among homogeneous and heterogeneous chains and expand the interchain capability of the relay chain.",
+        "Developed interchain adapters for major consortium blockchain SDKs using Go programming language and Gin framework. Expanded interchain capabilities of Hyperledger Fabric, XuperChain, FISCO BCOS, CITA, and Chainmaker through non-invasive development mode. Provided back-end API support for interchain platform and completed integration with external systems.",
+        "Completed PoC of Interchain, Blockchain Oracle and DID applications. Explored more cutting-edge on-chain scenarios."
+      ],
+      "keywords": [
+        "infrastructure",
+        "interchain",
+        "consortium blockchain",
+        "cosmos",
+        "tendermint"
+      ],
+      "startDate": "2021-10-01",
+      "endDate": "2022-07-15",
+      "roles": [
+        "Technical Leader",
+        "Backend Developer"
+      ],
+      "type": "infrastructure"
+    }
+  ],
+  "sideProjects": [
+    {
+      "name": "Wan - The Final Sea",
+      "url": "https://thewan.cc",
+      "description": "A platform that aggregates personal information and deconstructs users' behaviors and social relationship.",
+      "keywords": [
+        "nextjs",
+        "react",
+        "typescript",
+        "tailwindcss",
+        "golang",
+        "nodejs",
+        "python",
+        "postgresql",
+        "serverless"
+      ],
+      "startDate": "2022-11-01",
+      "endDate": "2023-02-11"
+    },
+    {
+      "name": "Uright",
+      "url": "https://github.com/pseudoyu/uright",
+      "description": "A Blockchain-based Music Copyright Management ÐApp using Angular, Solidity, and Truffle. It's integrated with services such as IPFS and Opensea.",
+      "keywords": [
+        "ethereum",
+        "solidity",
+        "ipfs",
+        "nft",
+        "angular",
+        "truffle"
+      ],
+      "startDate": "2021-01-01"
+    },
+    {
+      "name": "Pseudoyu -  Knowledge Base",
+      "url": "https://www.pseudoyu.com/",
+      "description": "Served as a repository for recording my technical learning and personal growth, encompassing blockchain, smart contract development, Web3 exploration, backend development insights, and productivity content.",
+      "keywords": [
+        "blog",
+        "technology",
+        "blockchain",
+        "web3",
+        "productivity"
+      ],
+      "startDate": "2020-06-06",
+      "endDate": "2023-02-14"
+    },
+    {
+      "name": "Blockchain Guide",
+      "url": "https://guide.pseudoyu.com/",
+      "description": "This guide introduces fundamental knowledge, high-quality projects, coding practices, and various online resources for those interested in blockchain, facilitating a faster grasp of relevant knowledge in the field of blockchain and Web3.",
+      "keywords": [
+        "blockchain",
+        "guide",
+        "web3",
+        "book",
+        "project"
+      ],
+      "startDate": "2022-05-23",
+      "endDate": "2023-02-14"
+    },
+    {
+      "name": "Blockchain Dark Forest Selfguard Handbook",
+      "url": "https://darkhandbook.io/",
+      "description": "A guide aiming to working with more high-quality Web3 partners to improve the security awareness of this industry to at least one level.",
+      "keywords": [
+        "blockchain",
+        "security",
+        "web3",
+        "translation"
+      ],
+      "startDate": "2022-04-13",
+      "endDate": "2022-05-13"
+    },
+    {
+      "name": "GoCN Translator Team(GoCN-TT)",
+      "url": "https://github.com/gocn/translator",
+      "description": "An open-source organization dedicated to translating the latest news and technical articles about the Go programming language.",
+      "keywords": [
+        "go",
+        "translation",
+        "open-source"
+      ],
+      "startDate": "2021-05-01",
+      "endDate": "2023-02-13"
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/pseudoyu/cv/master/cv.json",
+    "version": "v1.0.2",
+    "lastModified": "2023-02-27T17:40:08+08:00Z"
+  }
+}

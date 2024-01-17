@@ -1,0 +1,298 @@
+{
+  "$schema": "https://raw.githubusercontent.com/reorx/jsoncv/master/schema/jsoncv.schema.json",
+  "basics": {
+    "name": "张宇",
+    "label": "区块链研发工程师",
+    "image": "",
+    "email": "pseudoyu@connect.hku.hk",
+    "phone": "(86) 15382305580",
+    "summary": "GitHub: [github.com/pseudoyu](https://github.com/pseudoyu)\n\n具备多种区块链技术栈的能力，擅长设计和构建 ÐApp，致力于开发优秀的 Web3 产品以解决现实问题",
+    "location": {
+      "city": "北京",
+      "countryCode": "",
+      "region": "中国"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "pseudoyu",
+        "url": "https://github.com/pseudoyu"
+      },
+      {
+        "network": "Twitter",
+        "username": "pseudo_yu",
+        "url": "https://twitter.com/pseudo_yu"
+      }
+    ],
+    "url": "https://www.pseudoyu.com"
+  },
+  "work": [
+    {
+      "name": "纸贵科技",
+      "location": "北京, 中国",
+      "description": "A leading provider of blockchain technology products and solutions.",
+      "position": "区块链研发工程师 & 跨链技术负责人",
+      "url": "https://zhigui.com",
+      "startDate": "2021-07-05",
+      "endDate": "2023-02-11",
+      "summary": "",
+      "highlights": [
+        "**团队管理:** 担任技术负责人，管理包括前端、后端、测试和运维人员在内六名组员；领导团队协同完成项目进度计划，组织日常/定期会议，制定团队规章制度；成功完成三个关键项目的研发、交付和维护工作",
+        "**软件开发:** 开发/维护基于 Cosmos SDK 的区块链跨链系统，包括跨链 ibc 模块、链上数据监控和处理等；优化了跨链业务流程的区块链性能（从2秒降低至800毫秒）；领导团队完成外部联盟链的集成和定制开发，支持多种联盟链的应用场景",
+        "**开发流程管理:** 为中国联通、招商银行、中国电信等大型业务合作伙伴开发和维护了基于 GitFlow 的 Git 工作流和 DevOps 环境，深度集成项目管理、版本控制和 CI/CD"
+      ]
+    },
+    {
+      "name": "Upstairs Research",
+      "location": "Singapore",
+      "description": "Asia's leading custodial NFT marketplace.",
+      "position": "智能合约开发工程师",
+      "url": "https://www.upstairs.io",
+      "startDate": "2022-07-01",
+      "endDate": "2023-02-11",
+      "summary": "",
+      "highlights": [
+        "开发和维护 NFT、世界杯相关活动、GameFi 平台和 DeFi 应用（与 Uniswap 集成）等类型 Solidity 智能合约；使用 Hardhat 框架探索智能合约开发、测试和迭代过程的最佳实践",
+        "与团队合作开发基于 Polygon 的 Layer2 区块链，并构建了与多个业务模块及链上智能合约进行交互的 API 服务",
+        "调研与探索新兴链上应用场景，并不断寻找新的解决方案以改进和优化产品"
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "香港大学",
+      "url": "https://www.hku.hk",
+      "area": "电子商贸及互联网工程",
+      "studyType": "硕士",
+      "startDate": "2020-09-01",
+      "endDate": "2021-12-01",
+      "score": "3.4/4.3",
+      "courses": [
+        "FITE3011 - 区块链与分布式账本",
+        "ICOM6012 - 计算机网络与基础架构",
+        "COMP7404 人工智能与机器学习",
+        "COMP7103 - 数据挖掘"
+      ]
+    },
+    {
+      "institution": "武汉理工大学",
+      "url": "https://www.whut.edu.cn",
+      "area": "语言学",
+      "studyType": "本科",
+      "startDate": "2015-09-01",
+      "endDate": "2019-07-01",
+      "score": "3.7/5",
+      "courses": [
+        "互联网大规模数据分析",
+        "数理统计",
+        "翻译理论与技术"
+      ]
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "后端开发",
+      "level": "熟悉",
+      "keywords": [
+        "golang",
+        "gin",
+        "database",
+        "git"
+      ]
+    },
+    {
+      "name": "前端开发",
+      "level": "入门",
+      "summary": "",
+      "keywords": [
+        "react",
+        "nextjs",
+        "typescript",
+        "tailwindcss"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "level": "熟悉",
+      "keywords": [
+        "kubernetes",
+        "docker",
+        "github actions",
+        "gitlab ci",
+        "shell"
+      ]
+    },
+    {
+      "name": "技术写作",
+      "level": "精通",
+      "keywords": [
+        "programming",
+        "productivity",
+        "thinking",
+        "translation"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "英语",
+      "fluency": "流利",
+      "summary": "资格证书: 英语专业八级、雅思；较强英语读写理解能力，口语流利，能够迅速理解英文资料，撰写专业技术文档"
+    },
+    {
+      "language": "中文",
+      "fluency": "母语"
+    },
+    {
+      "language": "日语",
+      "fluency": "入门"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Writing",
+      "keywords": [
+        "blog",
+        "technical articles",
+        "critical thinking"
+      ]
+    },
+    {
+      "name": "Photography",
+      "keywords": [
+        "sony",
+        "photoshop"
+      ]
+    },
+    {
+      "name": "Video Editing",
+      "keywords": [
+        "final cut pro",
+        "adobe premiere pro"
+      ]
+    }
+  ],
+  "references": [],
+  "projects": [
+    {
+      "name": "跨链系统",
+      "description": "中继链/网关跨链解决方案",
+      "highlights": [
+        "重构项目基于 Tendermint Cosmos SDK 的自研链；开发跨链所需 ibc 模块，结合 Cosmos 原生组件和自研的 jvm 智能合约引擎模块、多节点管理模块等，实现了同构与异构链之间的跨链，扩展了自研链的跨链能力",
+        "基于 Go 语言和 Gin 框架，为主流联盟链开发了跨链适配器；通过非侵入式开发模式，扩展了 Hyperledger Fabric、XuperChain、FISCO BCOS、CITA 和 Chainmaker 的跨链能力；为跨链平台提供后端 API 支持，并完成与外部系统的集成",
+        "完成了跨链、区块链预言机和 DID 应用的 PoC Demo 演示；探索更多前沿链上应用场景"
+      ],
+      "keywords": [
+        "infrastructure",
+        "interchain",
+        "consortium blockchain",
+        "cosmos",
+        "tendermint",
+        "go",
+        "gin"
+      ],
+      "startDate": "2021-10-01",
+      "endDate": "2022-07-15",
+      "roles": [
+        "技术负责人",
+        "后端开发工程师"
+      ],
+      "type": "底层链"
+    }
+  ],
+  "sideProjects": [
+    {
+      "name": "Wan - The Final Sea",
+      "url": "https://thewan.cc",
+      "description": "一个汇聚个人信息流、解构用户行为和社交关系的平台\n\n\n\n",
+      "keywords": [
+        "nextjs",
+        "react",
+        "typescript",
+        "tailwindcss",
+        "golang",
+        "nodejs",
+        "python",
+        "postgresql",
+        "serverless"
+      ],
+      "startDate": "2022-11-01",
+      "endDate": "2023-02-11"
+    },
+    {
+      "name": "Uright",
+      "url": "https://github.com/pseudoyu/uright",
+      "description": "基于区块链的音乐版权管理分布式应用（ÐApp），使用 Angular、Solidity 和 Truffle 等技术，并集成 IPFS、Opensea 等服务，部署于以太坊 Rinkeby 网络上",
+      "keywords": [
+        "ethereum",
+        "solidity",
+        "ipfs",
+        "nft",
+        "angular",
+        "truffle"
+      ],
+      "startDate": "2021-01-01"
+    },
+    {
+      "name": "Pseudoyu - Knowledge Base",
+      "url": "https://www.pseudoyu.com/",
+      "description": "本人记录了在区块链底层、智能合约、Web3、后端开发等技术领域的学习经验及工作效率相关内容",
+      "keywords": [
+        "blog",
+        "technology",
+        "blockchain",
+        "web3",
+        "productivity"
+      ],
+      "startDate": "2020-06-06",
+      "endDate": "2023-02-14"
+    },
+    {
+      "name": "Blockchain Guide",
+      "url": "https://guide.pseudoyu.com/",
+      "description": "本指南介绍了区块链领域的基础知识、高质量项目、编码实践和各种在线资源，旨在帮助有兴趣的人更快地掌握相关知识，了解区块链和Web3领域的前沿动态",
+      "keywords": [
+        "blockchain",
+        "guide",
+        "web3",
+        "book",
+        "project"
+      ],
+      "startDate": "2022-05-23",
+      "endDate": "2023-02-14"
+    },
+    {
+      "name": "Blockchain Dark Forest Selfguard Handbook",
+      "url": "https://darkhandbook.io/",
+      "description": "一个致力于联合更多优质的 Web3 合作伙伴、提升行业安全意识的区块链安全指南",
+      "keywords": [
+        "blockchain",
+        "security",
+        "web3",
+        "translation"
+      ],
+      "startDate": "2022-05-13",
+      "endDate": "2022-06-13"
+    },
+    {
+      "name": "GoCN Translator Team(GoCN-TT)",
+      "url": "https://github.com/gocn/translator",
+      "description": "一个致力于翻译 go 语言最新资讯与技术文章的开源组织",
+      "keywords": [
+        "go",
+        "translation",
+        "open-source"
+      ],
+      "startDate": "2021-05-01",
+      "endDate": "2023-02-13"
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/pseudoyu/cv/master/cv.json",
+    "version": "v1.0.2",
+    "lastModified": "2023-02-27T17:38:46+08:00Z"
+  }
+}
